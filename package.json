@@ -14,7 +14,7 @@
     "@zxcvbn-ts/language-en": "^4.1.1",
     "better-auth": "^1.6.23",
     "better-sqlite3": "^12.11.1",
-    "next": "15.1.6",
+    "next": "16.4.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "zod": "^4.4.3"
@@ -25,7 +25,7 @@
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8.4.49",
+    "postcss": "^8.5.23",
     "tailwindcss": "^4.0.0",
     "typescript": "^5"
   }
