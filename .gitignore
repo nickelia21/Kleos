@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+*.log
+.DS_Store
+next-env.d.ts
+*.tsbuildinfo
+
+# local database + uploads
+/data
+
+# secrets — copy .env.example to .env.local and fill in
+.env
+.env.local
+.env*.local

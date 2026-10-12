@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  /* Kleos brand — warm coral/terracotta on warm near-black */
+  --color-bg: #151110;
+  --color-panel: #1e1815;
+  --color-panel-2: #272019;
+  --color-line: #372e26;
+  --color-line-soft: #2b241e;
+  --color-cream: #f3ece1;
+  --color-muted: #a4947f;
+  --color-faint: #6f6355;
+  --color-coral: #e96a4c;
+  --color-coral-soft: #f29b82;
+  --color-coral-deep: #c14e33;
+  --color-gain: #4fa878;
+  --color-loss: #d2504e;
+  --color-amber: #d9a441;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-cream);
+  font-family:
+    ui-sans-serif,
+    -apple-system,
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-serif-brand {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.wordmark {
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.kicker {
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--color-muted);
+}
+
+::selection {
+  background: var(--color-coral);
+  color: var(--color-bg);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(curl -s -X POST http://localhost:3000/api/trade -H 'Content-Type: application/json' -d '{\"slug\":\"juno-vale\",\"side\":\"buy\",\"shares\":5}')",
+      "Bash(curl -s http://localhost:3000/api/vips)",
+      "Bash(curl -s -X POST http://localhost:3000/api/trade -H 'Content-Type: application/json' -d '{\"vipId\":\"juno-vale\",\"side\":\"buy\",\"shares\":5}')",
+      "WebFetch(domain:www.better-auth.com)"
+    ]
+  }
+}
