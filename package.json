@@ -12,7 +12,7 @@
     "@zxcvbn-ts/core": "^4.1.2",
     "@zxcvbn-ts/language-common": "^4.1.2",
     "@zxcvbn-ts/language-en": "^4.1.1",
-    "better-auth": "^1.6.23",
+    "better-auth": "^1.7.15",
     "better-sqlite3": "^12.11.1",
     "next": "15.1.6",
     "react": "19.0.0",
